@@ -1,1 +1,20 @@
 ## This is Full Stack Project using node express Sql and react in frontend 
+             React
+               │
+       ┌───────┴────────┐
+       │                │
+     CREATE            READ
+       │                │
+     POST              GET
+       │                │
+       └───────┬────────┘
+               ↓
+            Express
+               ↓
+             MySQL
+               ↑
+       ┌───────┴────────┐
+       │                │
+     UPDATE           DELETE
+       │                │
+      PUT             DELETE
